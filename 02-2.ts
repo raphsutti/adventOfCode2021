@@ -36,7 +36,7 @@ interface Position {
 
 const main = async () => {
   const raw = await fs.promises.readFile(
-    path.join(__dirname, "./02-01input"),
+    path.join(__dirname, "./02-1input"),
     "utf8"
   );
   const lines = raw.split("\n").slice(0, -1);
